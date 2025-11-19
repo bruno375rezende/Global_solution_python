@@ -38,8 +38,9 @@ A função mostrar_resultados() exibe o relatório final com recomendações de 
 Como usar
 
 1. Clone ou baixe o repositório.
-2. Certifique-se de ter o Python e a biblioteca `pandas` instalados:
+2. Certifique-se de ter o Python e a biblioteca pandas instalados:
 ```bash
 pip install pandas
+
 
 
