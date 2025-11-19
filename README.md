@@ -1,5 +1,5 @@
 Alunos: Bruno Lisboa Rezende rm: 562228
-ALunos: Rafael Ali Oliveira Khalil rm 561240
+Rafael Ali Oliveira Khalil rm 561240
 
 
 Este projeto simula uma solução voltada para preparar jovens e profissionais para o futuro do trabalho, considerando áreas de interesse e tendências tecnológicas, como IA, automação e ambientes híbridos.
@@ -41,6 +41,7 @@ Como usar
 2. Certifique-se de ter o Python e a biblioteca pandas instalados:
 ```bash
 pip install pandas
+
 
 
 
