@@ -13,7 +13,7 @@ A função coletar_dados() coleta informações do usuário:
 - Área de interesse
 
 Estrutura de repetição
-A função coletar_varios_usuarios() utiliza um loop `while` para permitir a inserção de múltiplos usuários.
+A função coletar_varios_usuarios() utiliza um loop while para permitir a inserção de múltiplos usuários.
 
 Funções
 O projeto é modularizado em funções:
@@ -41,4 +41,5 @@ Como usar
 2. Certifique-se de ter o Python e a biblioteca `pandas` instalados:
 ```bash
 pip install pandas
+
 
