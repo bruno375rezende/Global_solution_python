@@ -7,33 +7,33 @@ Este projeto simula uma solução voltada para preparar jovens e profissionais p
 Estruturas utilizadas
 
  Estrutura de entrada
-A função `coletar_dados()` coleta informações do usuário:
+A função coletar_dados() coleta informações do usuário:
 - Nome
 - Idade
 - Área de interesse
 
 Estrutura de repetição
-A função `coletar_varios_usuarios()` utiliza um loop `while` para permitir a inserção de múltiplos usuários.
+A função coletar_varios_usuarios() utiliza um loop `while` para permitir a inserção de múltiplos usuários.
 
 Funções
 O projeto é modularizado em funções:
-- `coletar_dados()`
-- `coletar_varios_usuarios()`
-- `criar_dataframe()`
-- `recomendar_carreira()`
-- `mostrar_resultados()`
+- coletar_dados()
+- coletar_varios_usuarios()
+- criar_dataframe()
+- recomendar_carreira()
+- mostrar_resultados()
 
  Função dentro de função
-Dentro de `coletar_dados()`, há a função `input_questao()` que encapsula a entrada de dados de forma reutilizável.
+Dentro de coletar_dados(), há a função input_questao() que encapsula a entrada de dados de forma reutilizável.
 
  Estrutura de condição
-Na função `recomendar_carreira()`, utilizamos `if/elif/else` para gerar recomendações de carreira baseadas na área de interesse do usuário.
+Na função recomendar_carreira(), utilizamos if/elif/else para gerar recomendações de carreira baseadas na área de interesse do usuário.
 
 Dataframe
-A função `criar_dataframe()` utiliza a biblioteca `pandas` para organizar os dados coletados em uma estrutura tabular, facilitando análise e relatórios.
+A função criar_dataframe() utiliza a biblioteca pandas para organizar os dados coletados em uma estrutura tabular, facilitando análise e relatórios.
 
 Estrutura de saída
-A função `mostrar_resultados()` exibe o relatório final com recomendações de carreira para cada usuário.
+A função mostrar_resultados() exibe o relatório final com recomendações de carreira para cada usuário.
 
 Como usar
 
@@ -41,3 +41,4 @@ Como usar
 2. Certifique-se de ter o Python e a biblioteca `pandas` instalados:
 ```bash
 pip install pandas
+
